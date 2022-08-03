@@ -1,0 +1,34 @@
+{
+  "name": "manxome",
+  "version": "1.0.0",
+  "description": "A Node.JS framework for building interactive CLI applications.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "author": "Eli Richardson",
+  "license": "MIT",
+  "xo": {
+    "space": true,
+    "prettier": true
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "arrowParens": "always"
+  },
+  "devDependencies": {
+    "ava": "^4.3.1",
+    "prettier": "^2.7.1",
+    "xo": "^0.51.0"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^9.0.2",
+    "supports-color": "^9.2.2"
+  }
+}
